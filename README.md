@@ -1,8 +1,11 @@
 # World Exercises
 
-1)
-* SElECT DISTINCT COUNT(Name) FROM city
+1) all cities
+* SElECT DISTINCT COUNT(Name) FROM city WHERE
 * 4079
+
+US cities
+SELECT COUNT(*) FROM city WHERE CountryCode = "USA";
 
 2)
 * SELECT LifeExpectancy FROM country WHERE Name="Argentina";
